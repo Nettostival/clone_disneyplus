@@ -54,9 +54,10 @@
 
     select {
         background-color: transparent;
-        border: none;
+        border-color: transparentize(variaveis.$corDeFundo, 0);
         color: variaveis.$corTextoPrincipal;
         height: 32px;
+
 
         &:hover {
             color: variaveis.$corTextoSecundario;

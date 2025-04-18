@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "gulp watch",
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/Nettostival/clone_disneyplus#readme",
   "devDependencies": {
+    "@types/sass": "^1.43.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.37.5"
   },
   "dependencies": {
